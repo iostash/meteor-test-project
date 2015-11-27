@@ -1,0 +1,15 @@
+@import '{reywood:bootstrap3-sass}/bootstrap';
+
+@import 'variables/_main';
+
+.main-content {
+	padding: $container_paddings;
+}
+
+.seperate-section {
+	margin-bottom: $seperate_mg_btm;
+}
+
+.glyph-btn {
+	font-size: 24px;
+}
