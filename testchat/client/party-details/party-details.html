@@ -1,0 +1,15 @@
+<header>
+	<a [routerLink]="['/PartiesList']">
+		<span class="glyphicon glyphicon-share-alt glyph-btn reflect-yaxis" aria-hidden="true"></span>
+	</a>
+	<div class="panel panel-default">
+		<div class="panel-heading">
+			<h3 class="panel-title">{{party.name}}</h3>
+		</div>
+		<div class="panel-body">
+			<p>{{party.description}}</p>
+
+			<p>{{party.location}}</p>
+		</div>
+	</div>
+</header>

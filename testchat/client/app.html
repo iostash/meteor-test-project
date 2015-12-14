@@ -1,15 +1,3 @@
 <section class="container main-content">
-	<div class="row seperate-section">
-		<parties-form></parties-form>
-	</div>
-	<div class="row">
-		<ul class="lsit-group">
-		  <li class="list-group-item" *ng-for="#party of parties">
-		    {{party.name}}
-		    <p>{{party.description}}</p>
-			<p>{{party.location}}</p>
-			<span class="glyphicon glyphicon-remove-circle glyph-btn pull-right" aria-hidden="true" (click)="removeParty(party)"></span>
-		  </li>
-		</ul>
-	</div>
+	<router-outlet></router-outlet>
 </section>
