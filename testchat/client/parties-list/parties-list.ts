@@ -15,14 +15,14 @@ import {RouterLink} from 'angular2/router';
 	directives: [NgFor, PartiesForm, RouterLink]
 })
 export class PartiesList {
-    public parties: Mongo.Cursor<Object>;
+    public parties: Mongo.Cursor<Party>;
     
 	constructor() {
         this.parties = Parties.find();
 	}
 	
 	
-	removeParty(party) {
+	removeParty(party: Party) {
 		Parties.remove(party._id);
 	}
 }

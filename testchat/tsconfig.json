@@ -1,0 +1,7 @@
+{
+    "compilerOptions": {
+        "module": "system",
+		"experimentalDecorators": true,
+		"target": "ES5"
+	}
+}
