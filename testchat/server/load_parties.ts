@@ -1,7 +1,7 @@
 import {Parties} from 'collections/parties';
 
 export function loadParties() {
-	var parties: Array<Object>;
+	var parties: Array<Party>;
 	if (Parties.find().count() === 0) {
 		parties = [
 	        {

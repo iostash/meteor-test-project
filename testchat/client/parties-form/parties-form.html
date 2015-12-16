@@ -1,3 +1,4 @@
+<div *ngIf="!user">Please, log in to change party</div>
 <form class="form-inline" [ngFormModel]="partiesForm" #f="ngForm" (submit)="addParty(f.value)">
 	<div class="form-group">
 		<label>Name</label>
